@@ -380,7 +380,7 @@ header.navbar .nav-link:hover::after {
 }
 .hero-tag{
   font-family:'Cinzel',serif;font-size:clamp(12px,1.6vw,11px);
-  letter-spacing:.5em;text-transform:uppercase;color:var(--gold);
+  letter-spacing:.5em;text-transform:uppercase;color:#722436;
   margin-bottom:16px;opacity:0;animation:fadeUp 1.2s ease .6s forwards;
 }
 .hero-title{
@@ -400,12 +400,12 @@ header.navbar .nav-link:hover::after {
 }
 .hero-date{
   font-family:'Cinzel',serif;font-size:clamp(11px,2vw,14px);
-  letter-spacing:.35em;text-transform:uppercase;color:rgb(75 55 38);
+  letter-spacing:.35em;text-transform:uppercase;color:rgb(91 0 22);
   margin-bottom:8px;
   opacity:0;animation:fadeUp 1.2s ease 1.3s forwards;
 }
 .hero-venue{
-  font-size:clamp(12px,2vw,15px);color:#847369;
+  font-size:clamp(12px,2vw,15px);color:#5a0016;
   letter-spacing:.12em;
   opacity:0;animation:fadeUp 1.2s ease 1.5s forwards;
 }
