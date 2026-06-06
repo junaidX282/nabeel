@@ -258,8 +258,8 @@ header.navbar .nav-link:hover::after {
 }
 .door-corner.tl{top:20px;left:20px;border-width:2px 0 0 2px}
 .door-corner.tr{top:20px;right:20px;border-width:2px 2px 0 0}
-.door-corner.bl{bottom:20px;left:20px;border-width:0 0 2px 2px}
-.door-corner.br{bottom:20px;right:20px;border-width:0 2px 2px 0}
+.door-corner.bl{bottom:70px;left:20px;border-width:0 0 2px 2px}
+.door-corner.br{bottom:70px;right:20px;border-width:0 2px 2px 0}
 
 #door-center{
   position:absolute;inset:0;z-index:1;
@@ -267,6 +267,7 @@ header.navbar .nav-link:hover::after {
   text-align:center;padding:2rem;
   pointer-events:none;
 }
+
 /* center content sits on whichever door panel we place it — we'll absolutely center across both */
 #preloader-content{
   position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
@@ -411,16 +412,16 @@ header.navbar .nav-link:hover::after {
   opacity:0;animation:fadeUp 1.2s ease 1.5s forwards;
 }
 .hero-scroll{
-  position:absolute;bottom:32px;left:50%;transform:translateX(-50%) !important;
+  position:absolute;bottom:85px;left:50%;transform:translateX(-50%) !important;
   display:flex;flex-direction:column;align-items:center;gap:8px;
   opacity:0;animation:fadeUp 1.2s ease 2s forwards;
 }
 .hero-scroll span{
   font-family:'Cinzel',serif;font-size:9px;letter-spacing:.35em;
-  text-transform:uppercase;color:rgb(51 29 11);
+  text-transform:uppercase;color:rgb(90 0 22);
 }
 .scroll-mouse{
-  width:24px;height:38px;border:1.5px solid rgb(138 99 83);
+  width:24px;height:38px;border:2px solid rgb(89 0 22);
   border-radius:12px;display:flex;justify-content:center;padding-top:6px;
 }
 .scroll-dot{
