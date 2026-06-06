@@ -28,16 +28,17 @@ body {
     overflow-x: hidden;
     position: relative;
     min-height: 100vh;
-     background-image: url('./assets/bdy.png');
+    background-image: url('./assets/bdy.png');
     
     background-repeat: no-repeat;
-    background-attachment: fixed; /* Optional */
+    background-attachment: scroll; /* Optional */
+    height: 100vh;
 }
 
 @media( min-width: 992px) {
     body {
         background-size: cover;
-    background-position: center;
+        background-position: center;
     }
 }
 
